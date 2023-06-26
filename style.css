@@ -1,0 +1,74 @@
+body{
+    background-image: url(/JS/PassengerCounter/Images/BusStopBackground.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container{
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+#cardContainer {
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 2px 16px;
+  }
+    
+  
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.15);
+}
+
+#increment-btn{
+    background-color: #7ef903;
+    
+}
+
+#increment-btn:active{
+    background-color: #97f539;
+}
+
+#decrement-btn{
+    background-color: #ad1919;
+}
+
+#decrement-btn:active{
+    background-color: #c00a0a;
+}
+
+#save-btn{
+    background-color: #f6f607;
+}
+
+#save-btn:active{
+    background-color: #f8f82f;
+}
